@@ -1,0 +1,57 @@
+.text-algin {
+    text-align: center;
+}
+.text-indent {
+    text-indent: 5px;
+}
+.line-height {
+    line-height: 20px;
+}
+.vertical-align {
+    vertical-align: baseline;
+}
+.word-spacing {
+    word-spacing: normal;
+}
+.letter-spasing {
+    letter-spacing: normal;
+}
+.tab-size {
+    tab-size: 5px;
+}
+.text-transform {
+    text-transform: capitalize;
+}
+.direction {
+    direction: ltr;
+}
+#aa{
+    text-decoration: underline;
+}
+#bb{
+    unicode-bidi: normal;
+}
+#dd{
+    quotes: initial;
+}
+#ee{
+    font-family: 'Courier New', Courier, monospace;
+}
+#ff{
+    font-style: italic;
+}
+#gg{
+    font-variant: small-caps;
+}
+#hh{
+    font-weight: bold;
+}
+#ii{
+    font-size: xx-large;
+}
+#jj{
+    color: aquamarine;
+}
+#kk{
+    font: italic bold 14px/1.5 Times, 'New Centry Schoolbook',serif;
+}

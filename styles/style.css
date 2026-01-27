@@ -1,0 +1,90 @@
+.prew {
+    background: url(../img/img\ n1.jpg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+.new1 {
+    background: url(../img/6.png);
+    background-size: cover;
+}
+.new2 {
+    background: url(../img/3.png);
+    background-size: cover;
+}
+.prew3 {
+    background: url(../img/i.webp);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+.prew4 {
+    background: url(../img/74e326698ee9f2dbde15560f29445b79.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+.prew5 {
+    background: url(../img/00.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+.prew6 {
+     background: url(../img/89.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+body{
+   background-color: rgb(206, 229, 245);
+   font-size: 18px;
+}
+h1 {
+    font-size: 24 px;
+}
+h2{
+    font-size: 20 px;
+}
+h3{
+    font-size: 18 px;
+}
+h4{
+    font-size:16 px ;
+}
+* {
+    font-size: 16 px;
+}
+*content {
+    display: flex;
+    
+}
+.img{
+     width: 200px;               
+    height: 200px;              
+    background-size: cover;
+    
+}
+.img1 {
+     width: 200px;               
+    height: 200px;              
+    background-size: cover;
+}
+ul li {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10;
+    
+   
+}
+ul {
+    background: white;
+}
+li {
+    padding: 10px;
+    
+}

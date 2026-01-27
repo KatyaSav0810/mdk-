@@ -1,0 +1,140 @@
+.line li{
+    display: inline-block;  
+    margin-right: 20px; 
+    width: 50px;  
+    height: 50px;
+    background-color: #eda1a1;
+    text-align: center;
+    line-height: 50px;
+}
+.links a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: #3366ff;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+    line-height: 40px;
+    margin: 5px;
+}
+.blocks div{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    background-color: #ff4d4d;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px; /*отступ*/
+    padding: 15px; /*внут отступ*/
+}
+.blocks {
+    margin-top: 15px;
+} /*отступ*/
+.blocks .non{
+    display: none; /*скрытие*/
+}
+.links-markers a{
+    display: list-item;
+    list-style-type: square;
+    background-color: black;
+    color:white;
+    width: 200px;
+    height: 34px;
+    text-align: center;
+}
+.links-markers{
+    margin-top: 15px;
+}
+.post1,
+.post2{
+  background:darkred;
+  color:white;
+  padding:20px;
+  margin:20px;
+}
+
+.post1 .image,
+.post2 .image{
+  width:100px;
+  height:100px;
+  background-size:cover;
+  background-position:center;
+  border:2px dashed #930303;
+}
+
+.post1 .image{ background-image:url("media/weather-sun.jpg"); }
+.post2 .image{ background-image:url("media/weather-sun.jpg"); }
+
+
+.post1 .image{
+  float:left;
+  margin:15px;
+}
+
+.post2 .image{
+  float:right;
+  margin:15px;
+}
+
+.weather-table {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.weather-title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+}
+.weather-grid {
+            display: flex;
+           
+            gap: 15px;
+}
+.weather-day {
+            width: 30%; /* Задаем ширину вложенным контейнерам */
+            float: left; /* Применяем float с разными значениями (здесь все left, но можно использовать right или none) */
+            text-align: center;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.date {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+}
+
+.weather-description img {
+            width: 60px;
+            height: auto;
+            margin: 10px 0;
+}
+
+.temperature {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+}
+
+.temp-warm {
+            color: #e74c3c;
+}
+
+.temp-cool {
+            color: #3498db;
+}
+
+.temp-cold {
+            color: #2980b9;
+ }
+    
