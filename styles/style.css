@@ -1,44 +1,67 @@
-.prew {
-    background: url(../img/img\ n1.jpg);
-    width: 200px;
-    height: 100px;
-    background-size: cover;
-}
+/*картинки для новостей*/
 .new1 {
-    background: url(../img/6.png);
-    background-size: cover;
-}
-.new2 {
-    background: url(../img/3.png);
-    background-size: cover;
-}
-.prew3 {
-    background: url(../img/i.webp);
+    background: url(../img/img\ n1.jpg);
     background-size: cover;
     background-position: center;
+    display: block;
     height: 200px;
     width: 200px;
+    margin: 10px 0;
 }
-.prew4 {
+.new2 {
+    background: url(../img/new3.webp);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 10px 0;
+}
+.new3 {
+    background: url(../img/new2.png);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 10px 0;
+}
+/*картинки для навыков и курсов*/
+.prew1 {
+    background: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 10px 0;
+}
+.prew2 {
     background: url(../img/74e326698ee9f2dbde15560f29445b79.jpg);
     background-size: cover;
     background-position: center;
+    display: block;
     height: 200px;
     width: 200px;
+    margin: 10px 0;
 }
-.prew5 {
-    background: url(../img/00.jpg);
+.prew3 {
+    background: url(../img/2.webp);
     background-size: cover;
     background-position: center;
+    display: block;
     height: 200px;
     width: 200px;
+    margin: 10px 0;
 }
-.prew6 {
-     background: url(../img/89.jpg);
+.prew4 {
+    background: url(../img/4.jpg);
     background-size: cover;
     background-position: center;
+    display: block;
     height: 200px;
     width: 200px;
+    margin: 10px 0;
 }
 body{
    background-color: rgb(206, 229, 245);
@@ -59,12 +82,18 @@ h4{
 * {
     font-size: 16 px;
 }
-*content {
-    display: flex;
-    
+
+.content {display: flex;  }
+main {width: 70%;}
+aside {
+    width: 30%;
+    padding: 10px;
+    background-color: #eaf4f5;
+    text-align: center;
 }
+
 .img{
-     width: 200px;               
+    width: 200px;               
     height: 200px;              
     background-size: cover;
     
@@ -74,17 +103,40 @@ h4{
     height: 200px;              
     background-size: cover;
 }
-ul li {
-    display: inline-block;
+.menu ul {
+    list-style: none;
+    margin: 40px 0;
+    background-color: #eaf4f5;
+    display: flex;  
+}
+.menu a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px 10px;
+    text-align: center;
+}
+.skills-grid,
+.courses-grid {
+    display: flex;
+    gap: 20px; /*расстояние между элементами*/
+    flex-wrap: wrap;
     margin: 20px 0;
-    padding: 10;
-    
-   
 }
-ul {
-    background: white;
+.skills-item {
+    flex:1 1 calc(33.333% - 20px);/*3 колонки*/
+    min-width: 200px;
+    text-align: center;
+    box-sizing: border-box;
 }
-li {
-    padding: 10px;
-    
+.skills-item img {
+    background-size: cover;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
 }
+
